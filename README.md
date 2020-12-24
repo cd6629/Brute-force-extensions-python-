@@ -1,7 +1,7 @@
 # Python-scripts
 Random Python scripts
 
-# CVE-2019-15107
+## CVE-2019-15107
 
 I constructed this small script for the TryHackMe Room Source. Packet storm provided a base PoC script to build from including
 
@@ -14,7 +14,7 @@ Proof showing the reverse shell on source:
 ![Alt text](https://gblobscdn.gitbook.com/assets%2F-M8-SyxgckWEMfZfndbo%2F-MPHWu1prkH4OkZauum6%2F-MPHbPY2jNKwajOJlN8q%2Fimage.png?alt=media&token=6b2fdc76-500b-4c92-a09c-e8294ecbb339)
 
 
-# EDB-ID-44595-Wordpress-Python-Privesc-Script
+## EDB-ID-44595-Wordpress-Python-Privesc-Script
 
 I wrote this small script as an alternative to a Metasploit Wordpress privilege escalation module (44595.rb), for the TryHackMe room Jack. The only issue was formatting the cookie properly for the second request. The initial request responds with three separate cookies, one for the test, one for plugins and one for the admin page. Inspecting the headers reveal that the admin page is the last cookie and I was able split accordingly. 
 
