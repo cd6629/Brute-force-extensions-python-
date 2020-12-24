@@ -11,8 +11,7 @@ I constructed this small script for the TryHackMe Room Source. Packet storm prov
 
 Proof showing the reverse shell on source:
 
-
-![Alt text](https://gblobscdn.gitbook.com/assets%2F-M8-SyxgckWEMfZfndbo%2F-MPHWu1prkH4OkZauum6%2F-MPHaRpKZkcTqlOaPTD_%2FScreenshot%20from%202020-12-23%2021-31-58.png?alt=media&token=9c2163a2-e8c9-4a74-87f7-5cd877e0809b)
+![Alt text](https://gblobscdn.gitbook.com/assets%2F-M8-SyxgckWEMfZfndbo%2F-MPHWu1prkH4OkZauum6%2F-MPHbPY2jNKwajOJlN8q%2Fimage.png?alt=media&token=6b2fdc76-500b-4c92-a09c-e8294ecbb339)
 
 
 # EDB-ID-44595-Wordpress-Python-Privesc-Script
@@ -20,6 +19,5 @@ Proof showing the reverse shell on source:
 I wrote this small script as an alternative to a Metasploit Wordpress privilege escalation module (44595.rb), for the TryHackMe room Jack. The only issue was formatting the cookie properly for the second request. The initial request responds with three separate cookies, one for the test, one for plugins and one for the admin page. Inspecting the headers reveal that the admin page is the last cookie and I was able split accordingly. 
 
 Proof showing the 200 OK status code:
-
 
 ![Alt text](https://gblobscdn.gitbook.com/assets%2F-M8-SyxgckWEMfZfndbo%2F-MFiRLcHI0Wyu9VFcMnW%2F-MFiTscogS5IujitfADf%2Fimage.png?alt=media&token=d78cbe03-9251-4e5b-98c0-7426e6f0ad7b)
